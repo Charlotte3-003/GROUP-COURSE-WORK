@@ -1,0 +1,124 @@
+{
+  "hostel_blocks": [
+    {
+      "block_name": "A",
+      "rooms": [
+        {
+          "room_name": "A1",
+          "capacity": 3,
+          "occupants": 3,
+          "rate": 10000
+        },
+        {
+          "room_name": "A2",
+          "capacity": 3,
+          "occupants": 0,
+          "rate": 10000
+        }
+      ]
+    },
+    {
+      "block_name": "B",
+      "rooms": [
+        {
+          "room_name": "B1",
+          "capacity": 4,
+          "occupants": 1,
+          "rate": 15000
+        },
+        {
+          "room_name": "B2",
+          "capacity": 4,
+          "occupants": 1,
+          "rate": 15000
+        }
+      ]
+    },
+    {
+      "block_name": "C",
+      "rooms": [
+        {
+          "room_name": "C1",
+          "capacity": 5,
+          "occupants": 0,
+          "rate": 20000
+        },
+        {
+          "room_name": "C2",
+          "capacity": 5,
+          "occupants": 0,
+          "rate": 20000
+        }
+      ]
+    }
+  ],
+  "students": [
+    {
+      "name": "Mary",
+      "reg_no": "VU001",
+      "block_name": "A",
+      "room_name": "A1",
+      "balance": 3000.0
+    },
+    {
+      "name": "John",
+      "reg_no": "VU002",
+      "block_name": "B",
+      "room_name": "B1",
+      "balance": 10000
+    },
+    {
+      "name": "Rinidh",
+      "reg_no": "VU003",
+      "block_name": "B",
+      "room_name": "B2",
+      "balance": 7000.0
+    },
+    {
+      "name": "David",
+      "reg_no": "VU0010",
+      "block_name": "A",
+      "room_name": "A1",
+      "balance": 7000.0
+    },
+    {
+      "name": "Joyce",
+      "reg_no": "VU013",
+      "block_name": "A",
+      "room_name": "A1",
+      "balance": 10000
+    }
+  ],
+  "payments": [
+    {
+      "reg_no": "VU001",
+      "name": "Mary",
+      "amount": 5000,
+      "date": "2026-09-01"
+    },
+    {
+      "reg_no": "VU002",
+      "name": "John",
+      "amount": 5000,
+      "date": "2026-09-01"
+    },
+    {
+      "reg_no": "VU003",
+      "name": "Rinidh",
+      "amount": 8000.0,
+      "date": "2026-09-10"
+    },
+    {
+      "reg_no": "VU001",
+      "name": "Mary",
+      "amount": 2000.0,
+      "date": "2026-09-10"
+    },
+    {
+      "reg_no": "VU0010",
+      "name": "David",
+      "amount": 3000.0,
+      "date": "2026-09-11"
+    }
+  ]
+}
